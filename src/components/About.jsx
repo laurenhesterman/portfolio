@@ -1,10 +1,10 @@
 import { HiOutlineCode, HiOutlineDatabase, HiOutlineColorSwatch, HiOutlineCog, HiOutlineExternalLink } from "react-icons/hi";
 const About = () => {
   const skills = [
-    { category: "Frontend", items: ["React", "Redux", "Angular", "TypeScript", "JavaScript", "HTML", "CSS", "SCSS", "SVG"] },
-    { category: "Data, APIs, & Auth", items: ["GraphQL", "RTK Query", "REST API", "Web Sockets", "Auth0", "AWS Cognito"] },
+    { category: "Frontend", items: ["React", "Redux", "Angular", "TypeScript", "JavaScript", "HTML", "CSS", "SCSS", "SVG", "Vite", "Node", "Babel"] },
+    { category: "Data, APIs, & Auth", items: ["GraphQL", "RTK Query", "REST API", "Web Sockets", "Auth0", "AWS Cognito","SQL", "NoSQL"] },
     { category: "Design Systems & Visualizations", items: ["Ant Design", "Tailwind CSS", "Photoshop", "Figma", "Material.ui", "Highcharts.js", "d3.js", "chart.js"] },
-    { category: "Tools & Platforms", items: ["AWS", "Azure", "Jira", "Asana", "Datadog", "Pendo", "Git", "VS Code", "XCode", "Android Studio", "PWA"] }
+    { category: "Tools, Platforms & More", items: ["AWS", "Azure", "Jira", "Asana", "Datadog", "Pendo", "Git", "VS Code", "XCode", "Android Studio", "PWA", "Python", "Ruby", "Ruby on Rails","Django" ] }
   ];
   const skillIcons = [
     <HiOutlineCode className="text-primary-500 w-7 h-7" />,         // Frontend
