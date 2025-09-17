@@ -62,31 +62,6 @@ const Experience = () => {
     }
   ];
 
-  const handleDownloadResume = () => {
-    const resumeContent = `Lauren Hesterman | Senior Front End Software Engineer
-Email: laurenhesterman@gmail.com | LinkedIn: linkedin.com/in/laurenhesterman
-
-EXPERIENCE
-Senior Full Stack Developer | TechCorp Solutions | 2022 - Present
-Full Stack Developer | StartupXYZ | 2020 - 2022  
-Frontend Developer | Digital Agency Pro | 2019 - 2020
-
-SKILLS
-Frontend: React, TypeScript, Tailwind CSS
-Backend: Node.js, Express, PostgreSQL
-Cloud: AWS, Docker, CI/CD`;
-
-    const blob = new Blob([resumeContent], { type: 'text/plain' });
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'Lauren Hesterman.txt';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
-  };
-
   return (
     <section id="experience" className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24 bg-gray-50 dark:bg-gray-800/50">
       <div className="container-max">
@@ -95,7 +70,7 @@ Cloud: AWS, Docker, CI/CD`;
             <span className="text-gradient">Experience</span>
           </h2>
           <a
-            href="/documents/Lauren Hesterman Resume.pdf"
+            href="/Lauren Hesterman Resume.pdf"
             download
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-600 text-white text-sm font-semibold shadow hover:bg-primary-700 hover:scale-105 hover:-translate-y-0.5 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2 border border-primary-700/10"
           >
