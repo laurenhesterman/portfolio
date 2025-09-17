@@ -38,7 +38,7 @@ const Header = () => {
       const headerHeight = 64; // h-16 = 64px
       const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
       const offsetPosition = elementPosition - headerHeight;
-      
+
       window.scrollTo({
         top: offsetPosition,
         behavior: 'smooth'
@@ -77,7 +77,7 @@ const Header = () => {
 
           {/* Right side - Dark Mode Toggle and Mobile Menu */}
           <div className="flex items-center gap-2">
-            <DarkModeToggle />
+            {/* <DarkModeToggle /> */}
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
