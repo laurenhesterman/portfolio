@@ -161,7 +161,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="/Lauren Hesterman Resume.pdf"
+                href="/Lauren_Hesterman_Resume.pdf"
                 download
                 className="btn-secondary"
               >
