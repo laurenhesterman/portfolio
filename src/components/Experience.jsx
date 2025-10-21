@@ -70,7 +70,7 @@ const Experience = () => {
             <span className="text-gradient">Experience</span>
           </h2>
           <a
-            href="/Lauren Hesterman Resume.pdf"
+            href="/Lauren_Hesterman_Resume.pdf"
             download
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-600 text-white text-sm font-semibold shadow hover:bg-primary-700 hover:scale-105 hover:-translate-y-0.5 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2 border border-primary-700/10"
           >
